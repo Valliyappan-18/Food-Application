@@ -1,0 +1,36 @@
+ ICONS - FONT AWESOME
+
+ 1. close button icon 
+
+ <i class="fa-solid fa-xmark"></i>
+
+--------------------------------------
+
+ 2. Menu icon - remixicon.com 
+
+ <i class="ri-menu-2-line"></i>
+
+ --------------------------------------
+
+ 3. dark theme icon - font AWESOME
+
+ <i class="fa-solid fa-circle-half-stroke"></i>
+
+ --------------------------------------
+
+ 4. organic leaf icon - font AWESOME
+
+ <i class="fa-solid fa-leaf"></i>
+
+ --------------------------------------
+ 5. utensils spoon icon - font AWESOME
+
+ <i class="fa-solid fa-utensils"></i>
+
+ --------------------------------------
+
+ 6. water drop icon - font awesome 
+
+ <i class="fa-solid fa-droplet"></i>
+
+ ------------------------------------

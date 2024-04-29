@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Images/icons8-burger-64.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="Food Order Application by valliyappan" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <script
+      src="https://kit.fontawesome.com/af5f63e109.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body class=" bg-primaryColor">
+    <!-- logo-name -->
+    <header id="header" class="bg-primaryColor w-full fixed top-0 left-0 z-50 py-2 dark:bg-darkcolor">
+    <nav id="navbar-container" class=" text-lightcolor flex justify-between items-center px-5 relative">
+    <div>
+      <a href="#" class=" font-extrabold text-4xl uppercase font-spacefont md:text-4xl lg:text-2xl">bur<span class=" text-secondaryColor">ger</span></a>
+    </div>
+    <!-- menu items -->
+    <div id="nav-items" class=" hidden absolute top-0 left-0 w-full py-14 bg-primaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-0">
+      <ul class=" text-center flex flex-col gap-4 md:flex-row md:w-full md: p-2 md:text-xl lg:text-2xl">
+        <li><a class=" nav-link hover:text-secondaryColor ease-in duration-200 " href="#home">Home</a></li>
+        <li><a class=" nav-link hover:text-secondaryColor ease-in duration-200" href="#about">About Us</a></li>
+        <li><a class=" nav-link hover:text-secondaryColor ease-in duration-200"class=" hover:text-secondaryColor ease-in duration-200" href="#menu">Menu</a></li>
+        <li><a class=" nav-link hover:text-secondaryColor ease-in duration-200" href="#review">Review</a></li>
+        <li><a class=" nav-link hover:text-secondaryColor ease-in duration-200" href="#contact">Contact</a></li>
+      </ul>
+      <!-- close button -->
+      <div id="close-btn" class=" absolute top-0 right-[1.2rem] text-2xl cursor-pointer md:hidden">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+    <!-- theme icon & sm-screen menu -->
+    <div class="flex gap-5">
+      <div id="theme" class="cursor-pointer md: text-2xl lg:text-2xl">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </div>
+      <div id="menu" class=" text-2xl cursor-pointer md:hidden  sm:text-xl">
+        <i class="ri-menu-2-line"></i>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <!-- main section -->
+  <main>
+    <section id="home" class=" bg-primaryColor text-lightcolor min-h-screen flex flex-col justify-center lg:h-auto lg:mb-5">
+      <div class=" flex flex-col items-center justify-center  min-h-full lg:flex-row lg:gap-5 lg:justify-around lg:p-10">
+        <div class="sm:w-2/5 md:w-3/5 lg:w-[120%]  lg:mt-5 " >
+          <img src="/Images/home-image.png" alt="home-image-burger-png">
+        </div>
+        <div>
+          <div class="text-center text-2xl font-publicsans font-extrabold lg:text-3xl lg:mt-4">HAPPY TUMMY WITH TASTY BURGERS.</div>
+          <div class=" w-20 bg-secondaryColor h-2 mx-auto mt-3 lg:w-60 lg:h-2 lg:mt-5"></div>
+          <div class=" text-center p-3 mt-0 md: text-2xl lg:leading-[2.5rem] lg:text-justify lg:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quae voluptatum saepe reprehenderit corrupti blanditiis soluta iure in rem consectetur impedit id, ratione delectus fuga, iusto laudantium natus. Similique maxime, fuga repellendus sed nostrum velit consequuntur tempore minima! Repellat expedita veritatis dolorem minima reiciendis ratione quod consequatur laboriosam suscipit id!</div>
+        </div>
+      </div>
+        <div class=" flex justify-center gap-5 lg:mt-0 lg:gap-10">
+          <div class=" text-center text-xl lg:text-2xl md:text-xl">
+            <i class="fa-solid fa-utensils text-secondaryColor"></i>
+            <br>
+            <h4>Delicious</h4>
+          </div>
+          <div class=" text-center text-xl lg:text-2xl md:text-xl">
+            <i class="fa-solid fa-droplet text-secondaryColor"></i>
+            <br>
+            <h4>Fresh</h4>
+          </div>
+          <div class=" text-center text-xl lg:text-2xl md:text-xl">
+            <i class="fa-solid fa-leaf text-secondaryColor"></i>
+            <br>
+            <h4>Organic</h4>
+          </div>
+         </div>
+    </section>
+  </main>
+  <script src="/src/script.js"></script>
+  </body>
+</html>
